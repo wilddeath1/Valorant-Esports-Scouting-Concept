@@ -4,4 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
+   base: '/Valorant-Esports-Scouting-Concept/',
 })
