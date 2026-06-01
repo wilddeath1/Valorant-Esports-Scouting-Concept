@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'ITC Machine Bold';
+    src: url('./assets/fonts/ITCMachineBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.machine-font {
+    font-family: 'ITC Machine Bold';
+}
