@@ -1,14 +1,18 @@
 # Esports Scouting Concept
 
+🔗 **Live Demo:** https://wilddeath1.github.io/Valorant-Esports-Scouting-Concept/
+
 A modern esports talent scouting landing page inspired by competitive Valorant recruitment systems and contemporary UI showcase designs.
 
 This project was built as a frontend learning project focused on practicing component-based architecture, reusable UI patterns, and dynamic rendering using React.
 
 ---
 
-## Preview
+## Overview
 
-The interface showcases a fictional esports scouting platform where teams can explore player profiles, roles, and recruitment status through an interactive card-based layout.
+The interface showcases a fictional esports scouting platform where organizations and recruiters can explore player profiles, roles, and recruitment status through an interactive card-based layout.
+
+The project focuses on frontend UI implementation, component reusability, data-driven rendering, and modern landing page design rather than real recruitment functionality.
 
 ---
 
@@ -38,7 +42,7 @@ This project was primarily created to practice and improve understanding of:
 - Tailwind CSS styling workflow
 - Basic interaction design and hover animations
 
-The player cards are generated dynamically from centralized data stored in `App.jsx`, instead of manually creating each card individually.
+The player cards are generated dynamically from centralized data stored in `App.jsx` instead of manually creating each card individually, demonstrating a data-driven approach to UI development.
 
 ---
 
@@ -53,32 +57,63 @@ The player cards are generated dynamically from centralized data stored in `App.
 
 ## Project Structure
 
-The project follows a lightweight component-based structure with reusable UI sections and modular card components.
+The project follows a lightweight component-based architecture with reusable UI sections and modular card components.
 
 ```bash
 src/
- ├── components/
- ├── assets/
- ├── App.jsx
- └── main.jsx
+├── components/
+├── assets/
+├── App.jsx
+└── main.jsx
 ```
+
+---
+
+## Learning Goals
+
+This project was built to improve understanding of:
+
+- Component-based architecture
+- Dynamic UI rendering
+- Reusable React components
+- Props drilling and data flow
+- Tailwind CSS utility-first styling
+- Layout composition and visual hierarchy
+- Interactive UI design
+
+---
+
+## Current Functionality
+
+- Dynamic player profile cards
+- Recruitment status indicators
+- Interactive navigation elements
+- External esports-related links
+- Hover animations and transitions
+- Responsive desktop layout
 
 ---
 
 ## Important Note
 
-This is currently a desktop-focused learning project and is not fully responsive or mobile-optimized yet.
+This is a frontend UI concept and learning project.
 
-The project was created primarily for frontend practice, UI exploration, and React/Tailwind learning purposes.
+Player profiles, recruitment statuses, and scouting information are fictional and used solely for demonstration purposes.
+
+The project is currently desktop-focused and is not fully mobile-optimized.
 
 ---
 
 ## Inspiration
 
 Inspired by:
+
 - Modern esports interfaces
 - Competitive roster scouting systems
 - Contemporary landing page aesthetics
 - Dashboard-style UI design
+- Valorant esports ecosystem
 
 ---
+
+Built as part of a React learning journey focused on component-based architecture, dynamic rendering, Tailwind CSS, and modern frontend UI development.
